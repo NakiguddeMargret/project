@@ -1,0 +1,131 @@
+*{
+     background: fafata;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+}
+ header img{
+    display: block;
+    margin:0 auto 10px; 
+    max-width: 100px;
+}
+header {
+    background: #264653;
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+nav{
+    background: #2a9d8f;
+    display: flex;
+    justify-content: center;
+}
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+}
+.banner{
+    display: flex;
+}
+.banner div{
+    width: 33%;
+}
+.banner img{
+    width: 100%;
+}
+div h1{
+    font-size: 50px;
+    padding: 70px 0 30px 0;
+
+}
+.banner p{
+padding: 0 20px 20px;
+}
+
+ form{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: fatafa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    text-align: center;
+ }
+ input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 15px auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+ } 
+
+  button{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+    background: rgb(28, 129,49);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+footer{
+    background: grey;
+    color: black;
+    padding: 25px 0;
+}
+
+.links-section h2{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.links-list{
+    
+    padding: 0;
+    margin-top: 10px;
+}
+.links-list li{
+    background: rgb(255, 255,255 0.12);
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 8px;
+}
+/*Responsive Design*/
+@media(max-width){
+
+}
+@media(max-width:900px){
+    #hide
+    display: none;
+}
+.banner div{
+    width: 50%;
+}
+.features div{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+feedback{
+    width: 80%;
+}
+}  
+
+
+
+
+     
+
+
+
+    
